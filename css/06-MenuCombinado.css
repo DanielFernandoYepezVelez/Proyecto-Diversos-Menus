@@ -1,0 +1,11 @@
+.navegacion-social-dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3f51b5;
+}
+
+.navegacion-social-dropdown .dropdow,
+.sociales {
+    flex: 1;
+}

@@ -1,0 +1,75 @@
+/* Menú Sencillo */
+
+@media screen and (min-width: 800px) {
+    .sencillo ul {
+        flex-direction: row;
+    }
+    .sencillo ul li {
+        margin-bottom: 0;
+    }
+}
+
+
+/* Menú Iconos */
+
+@media screen and (min-width: 480px) {
+    .iconos ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .iconos ul li {
+        flex: 1;
+        flex: 0 1 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .iconos ul li {
+        flex: 1;
+    }
+}
+
+
+/* Menú Dropdown */
+
+@media screen and (min-width: 768px) {
+    .dropdown ul {
+        flex-direction: row;
+    }
+    .dropdown ul li {
+        position: relative;
+        display: flex;
+        flex: 1 1 100%;
+    }
+    .dropdown ul li ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #ff5e62;
+    }
+    .dropdown ul li:hover ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
+/* Menu Redes Sociales  */
+
+@media screen and (max-width: 360px) {
+    .sociales ul li {
+        padding: 15px;
+        text-align: center;
+    }
+}
+
+
+/* Dropdown Y Redes Sociales */
+
+@media screen and (max-width: 853px) {
+    .navegacion-social-dropdown {
+        flex-direction: column;
+    }
+}

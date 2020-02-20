@@ -1,0 +1,9 @@
+.dropdown ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown ul li {
+    display: flex;
+    flex-direction: column;
+}

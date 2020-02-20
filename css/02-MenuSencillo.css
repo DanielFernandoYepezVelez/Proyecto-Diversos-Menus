@@ -1,0 +1,10 @@
+.sencillo ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sencillo ul li {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
